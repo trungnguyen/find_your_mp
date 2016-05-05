@@ -14,7 +14,9 @@
 #
 # The `.rspec` file also contains a few flags that are not defaults but that
 # users commonly want.
-#
+require_relative 'response_stubs/member_data_stub'
+
+
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
@@ -34,7 +36,7 @@ RSpec.configure do |config|
   config.before(:each) do
   stub_request(:get, "http://data.parliament.uk/membersdataplatform/services/mnis/members/query/fymp=e29jn/Committees%7CBiographyEntries%7CInterests/").
     with(headers: {'Accept'=>'*/*', 'User-Agent'=>'Ruby'}).
-    to_return(status: 200, body: "stubbed response", headers: {})
+    to_return(status: 200, body: MEMBER_DATA_STUB, headers: {})
   end
 
   # rspec-mocks config goes here. You can use an alternate test double
@@ -95,4 +97,8 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+
+
 end
+
+
