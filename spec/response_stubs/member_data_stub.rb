@@ -65,12 +65,6 @@ MEMBER_DATA_STUB = '{
               "-Id": "21251",
               "-LastAmendment": "2015-06-24T17:35:51",
               "-LastAmendmentType": "U",
-              "RegisteredInterest": "
-Name of donor: Tower Hamlets Labour Party 
- Address of donor: 349 Cambridge Heath Road, Bethnal Green, London E2 9RA 
- Amount of donation or nature and value if donation in kind: donations raised at or received as a result of a fundraising event on 28 January 2015, total £10,034.86 (which includes no individual registrable donations) 
- Donor status: unincorporated association
-",
               "RegisteredLate": "False",
               "Created": "2015-06-06T00:00:00",
               "Amended": "2015-06-24T17:35:51",
@@ -89,14 +83,6 @@ Name of donor: Tower Hamlets Labour Party
               "-Id": "21921",
               "-LastAmendment": "2015-07-16T14:00:08",
               "-LastAmendmentType": "C",
-              "RegisteredInterest": "
-Name of donor: Mr Peter Hearn
- Address of donor: private
- Amount of donation or nature and value if donation in kind: £20,000 to support my campaign for the deputy leadership of the Labour Party. £7,946.00 was returned to Peter Hearn on 13 July 2015 due to my withdrawal from the Deputy Leadership race.
- Date received: 26 June 2015
- Date accepted: 26 June 2015 
- Donor status: individual
-",
               "RegisteredLate": "False",
               "Created": "2015-07-16T00:00:00",
               "Amended": {
