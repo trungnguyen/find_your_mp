@@ -10,6 +10,6 @@ class Member
 		@name = response['Members']['Member']['FullTitle']
 	end
 
-	def get_data
+	def get_data(postcode)
 	end
 end
