@@ -4,7 +4,9 @@ class MembersController < ApplicationController
 	end
 	
 	def fetch
-		redirect_to member_path(id: '4138')
+		@member = Member.new
+		@member.get_data(params[:postcode])
+		redirect_to member_path(id: member_data.id)
 	end
 
 	def show

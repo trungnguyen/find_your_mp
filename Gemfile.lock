@@ -188,6 +188,7 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails (~> 4.1.0)
+  crack
   factory_girl_rails
   haml
   jbuilder (~> 2.0)
