@@ -2,8 +2,11 @@ class MembersController < ApplicationController
 
 	def index
 	end
-
-	def search
+	
+	def fetch
+		redirect_to member_path(id: '4138')
 	end
 
+	def show
+	end
 end
